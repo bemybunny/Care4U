@@ -2,6 +2,8 @@ import React, { useEffect, useState } from "react";
 import {auth,provider} from "./firebase";
 import {signInWithPopup} from "firebase/auth";
 import Body from './Body';
+import './signup.css';
+
 
 function SignIn(){
     const [value,setValue] = useState('')
@@ -11,7 +13,6 @@ function SignIn(){
             localStorage.setItem("email",data.user.email)
         })
     }
-
     useEffect(()=>{
         setValue(localStorage.getItem('email'))
     })
@@ -19,7 +20,7 @@ function SignIn(){
 return (
     <div>
         {value?<Body/>:
-        <img className="google_img" onClick={handleClick} src="google.png" alt="google"/>
+        <img src="googly.png" className="google_img" onClick={handleClick}  alt="google"/>
         }
     </div>
 );

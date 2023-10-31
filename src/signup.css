@@ -1,0 +1,70 @@
+/* signup.css */
+
+/* Overall body styles */
+.body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image:url('https://th.bing.com/th/id/R.5f186a834ec0b46630036f859b6da347?rik=Qp9%2f8fL9ml4hVw&riu=http%3a%2f%2fwww.healinghealth.com%2fwp%2fwp-content%2fuploads%2f2014%2f05%2fdreamstime_m_32203213.jpg&ehk=8ekW97czlXSjzHglKlYvk0z593qvF1A6fU99hXBIVko%3d&risl=1&pid=ImgRaw&r=0')
+
+  }
+  
+  /* Login container styles */
+  .doctor {
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+    max-width: 400px;
+    width: 90%; /* Adjust width as needed */
+  }
+  
+  /* Input styles */
+  input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+  }
+  
+  /* Button styles */
+  .button {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    margin: 10px 0;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+  }
+  
+  .email-button {
+    background-color: #2196F3;
+    color: #fff;
+  }
+  
+  .google-button {
+    background-color: #4285f4;
+    color: #fff;
+  }
+  
+  /* Media query for responsiveness */
+  @media (max-width: 768px) {
+    .doctor {
+      width: 100%; /* Full width on smaller screens */
+    }
+  }
+  .google_img{
+    height:45px; 
+    width:45px;
+  }

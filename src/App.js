@@ -1,5 +1,6 @@
 import React from "react";
 import SignUp from "./SignUp";
+import {BrowserRouter as Router,Routes,Route } from 'react-router-dom';
 function App() {
   const logout =()=>{
     localStorage.clear()
