@@ -1,0 +1,38 @@
+.App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+h1 {
+  color: #333;
+}
+
+.alarm-input {
+  display: flex;
+  margin-top: 20px;
+}
+
+.alarm-input input {
+  flex: 1;
+  padding: 10px;
+  margin-right: 5px;
+}
+
+/* button {
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+} */
+/* 
+button:hover {
+  background-color: #0056b3;
+} */
+
+.google_img{
+  height:45px; 
+  width:45px;
+}
