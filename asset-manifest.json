@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Care4U/static/css/main.07cc3c01.css",
+    "main.js": "/Care4U/static/js/main.20ae3698.js",
+    "static/js/787.49f7b2e0.chunk.js": "/Care4U/static/js/787.49f7b2e0.chunk.js",
+    "index.html": "/Care4U/index.html",
+    "main.07cc3c01.css.map": "/Care4U/static/css/main.07cc3c01.css.map",
+    "main.20ae3698.js.map": "/Care4U/static/js/main.20ae3698.js.map",
+    "787.49f7b2e0.chunk.js.map": "/Care4U/static/js/787.49f7b2e0.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.07cc3c01.css",
+    "static/js/main.20ae3698.js"
+  ]
+}
